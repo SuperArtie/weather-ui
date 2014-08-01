@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title pretty weather graphics
+    link(rel='stylesheet' href='/css/style.css')
+  body
+    h1 #{temp}
+    br
+    br
+    br
+    #level(style='height: #{level}px; width: 50px; background-color:#{color}; transform: rotate(-180deg);')
+      .thermometer(style='height: 300px; width: 50px;')
